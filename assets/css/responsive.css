@@ -1,0 +1,91 @@
+@media screen and (max-width: 1024px) {
+    .page-header .header-col .header-name {
+        font-size: 30px;
+        padding: 23px 0 0 20px;
+    }
+    .header-menu .header-menu-item .header-menu-item-name {
+        font-size: 16px;
+    }
+    body.fixed-header .page-header .header-name {
+        padding: 18px 0 0 5px;
+        font-size: 15px;
+    }
+    .page-intro-text {
+        padding: 20px;
+        left: 0;
+        width: 100%;
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .page-intro-text span.big {
+        display: inline;
+        font-size: 40px;
+    }
+    .page-intro-text span:not(.big) {
+        padding-left: 0;
+        display: inline;
+    }
+    .page-intro-text span.big:last-child {
+        padding-left: 0;
+    }
+    .slider-list .slider-item:before {
+        padding-top: 350px;
+    }
+    .slider-list .slider-item:hover .slider-title {
+        opacity: 0;
+    }
+    .slider-list .slider-item .slider-text {
+        top: 80px;
+        bottom: auto;
+        font-size: 16px;
+        line-height: 20px;
+        -webkit-transition: top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        -moz-transition: top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        -o-transition: top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        -ms-transition: top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transition: top 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    .slider-list .slider-item:hover .slider-text {
+        top: 40px;
+        bottom: auto;
+        opacity: 1;
+    }
+    .slider-list .slider-item .slider-link {
+        font-size: 16px;
+        bottom: 40px;
+    }
+    .slider-list .slider-item .slider-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .slider-list .slider-item .slider-title::after {
+        padding-left: 5px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .section-title {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 835px) {
+    .page-header .header-col .header-name {
+        font-size: 20px;
+        padding: 33px 0 0 5px;
+    }
+}
+@media screen and (max-width: 755px) {
+    .page-header .header-col .header-burger-holder {
+        display: block;
+    }
+    .header-menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 420px) {
+    .page-header .header-col .header-name {
+        display: none;
+    }
+    .slider-list .slider-item {
+        margin: 0 3px;
+    }
+}
